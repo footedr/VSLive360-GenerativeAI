@@ -4,7 +4,7 @@ This is the repo for the November 17th 2024 All day Workshop for VS Live 360 con
 ## Presenter: Lino Tadros
 
 ![Lino Tadros](media/Lino-Tadros.jpg)
-[LinkedIn](https://www.linkedin.com/in/linotadros/)
+### [LinkedIn](https://www.linkedin.com/in/linotadros/)
 
 ## Introduction
 “Generative AI is easy!” Look at ChatGPT, you ask a question, you get an answer! How difficult could it be?
