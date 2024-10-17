@@ -1,0 +1,7 @@
+{
+  "type": "openai",
+  "model": "gpt-3.5-turbo",
+  "endpoint": "",
+  "apikey": "sk-xxx",
+  "org": "org-xxx"
+}
