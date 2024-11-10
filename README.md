@@ -16,18 +16,18 @@ Well, for you as an individual, it is very easy and simple to use, but for an en
 |---|---|
 |9:00 - 9:15|Introductions|
 |9:15 - 9:45|Introduction to Generative AI|
-|9:45 - 10:00|Break|
-|10:00 - 10:30|Working with OpenAI using API|
-|10:30 - 11:00|Lab 1 Working with OpenAI using API|
-|11:00 - 11:30|Semantic Kernel Fundamentals|
-|11:30 - 12:00|Lab 2 Semantic Kernel Fundamentals|
-|12:00 - 1:00|Lunch|
-|1:00 - 1:30|Langchain Fundamentals|
-|1:30 - 2:00|Lab 3 Langchain Fundamentals|
-|2:00 - 2:30|Break|
+|9:45 - 10:15|Working with OpenAI using API|
+|10:15 - 11:00|Lab 1 Working with OpenAI using API|
+|11:00 - 11:15|Break|
+|11:15 - 11:45|Semantic Kernel Fundamentals|
+|11:45 - 12:15|Lab 2 Semantic Kernel Fundamentals|
+|12:15 - 1:00|Langchain Fundamentals|
+|1:00 - 2:00|Lunch|
+|2:00 - 2:30|Lab 3 Langchain Fundamentals|
 |2:30 - 3:30|RAG Fundamentals|
 |3:30 - 4:00|Lab 4 RAG Fundamentals|
-|4:00 - 4:45|Embeddings & Vectorization|
+|4:00 - 4:15|Break|
+|4:15 - 4:45|Embeddings & Vectorization|
 |4:45 - 5:15|Lab 5 Embeddings and Vectorization|
 |5:15 - 6:00|Final wrap up and answering questions.|
 
