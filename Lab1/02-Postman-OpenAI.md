@@ -12,7 +12,7 @@ it on your machine. Once installed, you can start using Postman to make API
 {
 "model": "gpt-3.5-turbo",
 "messages": [{"role": "user", "content": "Where do Visual Studio Live Conferences take place?"}],
-"temperature" : 1.0,
-"max_tokens": 1000
+"temperature" : 0.3,
+"max_tokens": 256
 }
 ```
