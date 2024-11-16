@@ -1,17 +1,22 @@
-from langchain_openai import OpenAI
+from langchain_openai import ChatOpenAI
 from langchain.sql_database import SQLDatabase
 from langchain.agents import AgentType, create_sql_agent
 from langchain.sql_database import SQLDatabase
 from langchain.agents.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
 from sqlalchemy import create_engine
 import pyodbc
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Choose any MS SQL Server Database or SQL Server Database you have access to.
-myuri = "mssql+pyodbc://@.\sql2022/TTB15Production?driver=SQL+Server+Native+Client+11.0"
+
+# myuri = "mssql+pyodbc://@.\SQLEXPRESS/IanResearchDB?driver=SQL+Server+Native+Client+11.0"
+myuri = "mssql+pyodbc://@.\SQLEXPRESS/IanResearchDB?driver=ODBC+Driver+17+for+SQL+Server"
 
 db = SQLDatabase.from_uri(myuri)
 
-llm = OpenAI(temperature=0)
+llm = ChatOpenAI(temperature=0, model="gpt-4o")
 
 sql_toolkit = SQLDatabaseToolkit(db=db, llm=llm)
 

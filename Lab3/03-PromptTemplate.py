@@ -1,6 +1,9 @@
 from langchain.prompts import PromptTemplate
 from langchain_openai import OpenAI
 from langchain.chains import LLMChain
+from dotenv import load_dotenv
+
+load_dotenv()
 
 template = "You are a Software Architect. What is a good name for a workshop on {technology} at a Technical conference?"
 

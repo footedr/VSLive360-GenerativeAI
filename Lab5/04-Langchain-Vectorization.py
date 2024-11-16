@@ -3,6 +3,9 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from dotenv import load_dotenv
+
+load_dotenv()
 
 vectorstore = FAISS.from_texts(
     ["Lino works at Solliance"], embedding=OpenAIEmbeddings()

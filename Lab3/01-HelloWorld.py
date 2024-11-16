@@ -1,4 +1,7 @@
 from langchain_openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # https://platform.openai.com/docs/deprecations
 llm = OpenAI(temperature=0.9)

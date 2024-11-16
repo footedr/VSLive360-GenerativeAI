@@ -2,6 +2,9 @@ from langchain_openai import OpenAI
 from langchain.chains import ConversationChain
 from langchain.memory import ChatMessageHistory, ConversationBufferMemory
 from langchain.schema import messages_from_dict, messages_to_dict
+from dotenv import load_dotenv
+
+load_dotenv()
 
 history = ChatMessageHistory()
 history.add_user_message("I want to talk about Donkeys")

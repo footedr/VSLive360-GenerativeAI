@@ -4,3 +4,10 @@ langchain_openai
 langchain_community
 wikipedia
 numexpr
+huggingface_hub
+langchain_experimental
+google-search-results
+PyPDF2
+chromadb
+pyodbc
+faiss-cpu

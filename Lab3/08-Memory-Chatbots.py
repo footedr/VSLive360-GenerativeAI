@@ -1,5 +1,8 @@
 from langchain_openai import OpenAI
 from langchain.chains import ConversationChain
+from dotenv import load_dotenv
+
+load_dotenv()
 
 llm = OpenAI(temperature=0, model="gpt-3.5-turbo-instruct")
 conversation = ConversationChain(llm=llm, verbose=True)

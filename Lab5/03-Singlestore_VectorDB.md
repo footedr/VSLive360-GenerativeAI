@@ -29,7 +29,7 @@ INSERT INTO myVectorTable(text, vector) VALUES ("Once upon a time, there was a l
 ```sql
 SELECT text, dot_product(vector, JSON_ARRAY_PACK("
 [<copy and paste the vector here> ]")) as score
-from myVectoreTable
+from myVectorTable
 order by score desc
 limit 5
 ```
