@@ -12,7 +12,7 @@ load_dotenv()
 # Choose any MS SQL Server Database or SQL Server Database you have access to.
 
 # myuri = "mssql+pyodbc://@.\SQLEXPRESS/IanResearchDB?driver=SQL+Server+Native+Client+11.0"
-myuri = "mssql+pyodbc://@.\SQLEXPRESS/IanResearchDB?driver=ODBC+Driver+17+for+SQL+Server"
+myuri = "mssql+pyodbc://@.\SQLEXPRESS/TestDBDB?driver=ODBC+Driver+17+for+SQL+Server"
 
 db = SQLDatabase.from_uri(myuri)
 
